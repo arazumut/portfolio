@@ -11,7 +11,29 @@ body {
 }
 
 .middle-text{
-  margin-top: 44px;
+  margin-top: -200px;
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-color: #0909ef;
+  }
+  25% {
+    background-color: #d53b10;
+  }
+  50% {
+    background-color: #ed73ed;
+  }
+  75% {
+    background-color: #64b5f7;
+  }
+  100% {
+    background-color: #070404;
+  }
+}
+
+body {
+  animation: gradientBackground 10s infinite;
 }
 
 .container {

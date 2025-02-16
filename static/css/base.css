@@ -4,16 +4,20 @@ body {
 }
 
 .navbar-ref {
-  color: #808080;
+  color: red;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 19px;
+  font-weight: bold;
 }
 
 .navbar-ul {
-    background-color: white;
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
+  background-color: #3c3c3c;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 
 .list-inline {
@@ -30,9 +34,10 @@ body {
   }
 
   .navbar-ref {
-    color: #808080;
+    color: red;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 19px;
+    font-weight: bold;
   }
 
 }

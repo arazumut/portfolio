@@ -12,6 +12,28 @@
   width: 50%;
 }
 
+@keyframes gradientBackground {
+  0% {
+    background-color: #ff9a9e;
+  }
+  25% {
+    background-color: #fad0c4;
+  }
+  50% {
+    background-color: #fad0c4;
+  }
+  75% {
+    background-color: #ff9a9e;
+  }
+  100% {
+    background-color: #ff9a9e;
+  }
+}
+
+body {
+  animation: gradientBackground 10s infinite;
+}
+
 .scroll-wrapper::-webkit-scrollbar {
     display: none;
     margin-right: 5%;

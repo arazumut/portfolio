@@ -2,12 +2,12 @@ $(function() {
   /* NOTE: hard-refresh the browser once you've updated this */
   $(".typed").typed({
     strings: [
-      "stat peterparker<br/>" +
-      "><span class='caret'>$</span> job: Friendly Neighborhood Spider-Man<br/> ^100" +
-      "><span class='caret'>$</span> skills: combat spider, villain slayer<br/> ^100" +
-      "><span class='caret'>$</span> hobbies: star-gazer, universe whisperer, mountain-biker<br/> ^300" +
-      "><span class='caret'>$</span> alias: spiderman<br/> ^300" +
-      "><span class='caret'>$</span> universe: found traces in every universe<br/> ^300"
+      "§arazumut<br/>" +
+      "><span class='caret'>$</span> job: Full Stack Developer<br/> ^100" +
+      "><span class='caret'>$</span> skills: Backend development, Mobile Development, AI Train<br/> ^100" +
+      "><span class='caret'>$</span> hobbies: DEVELOPMENT!<br/> ^300" +
+      "><span class='caret'>$</span> alias: Umut<br/> ^300" +
+      "><span class='caret'>$</span> Welcome: WELCOME TO K. UMUT ARAZ ' S PORTFOLIO<br/> ^300"
     ],
     showCursor: true,
     cursorChar: '_',

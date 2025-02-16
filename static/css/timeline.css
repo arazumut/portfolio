@@ -15,6 +15,28 @@
   text-decoration: none !important;
 }
 
+@keyframes gradientBackground {
+  0% {
+    background-color: #1a0984;
+  }
+  25% {
+    background-color: #aa2e0c;
+  }
+  50% {
+    background-color: #0f72a4;
+  }
+  75% {
+    background-color: #ff9a9e;
+  }
+  100% {
+    background-color: #551214;
+  }
+}
+
+body {
+  animation: gradientBackground 10s infinite;
+}
+
 .content{
   display:block;
   color: #303030;
